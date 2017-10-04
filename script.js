@@ -39,7 +39,6 @@ $(function() {
 	function calculate() {
 		val = detectGender();
 		newHeight = (val / capacity) * bottleHeight;
-		console.log(val);
 
 		showNewResult();
 		draw();

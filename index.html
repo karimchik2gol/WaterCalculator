@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рассчет употребления воды</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine-html.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/boot.min.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+  	<script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+	<div class="center">
+		<h1>Рассчет употребления воды в день</h1>
+
+		<div class="content">
+			<div class="params">
+				<div class="gender">
+					<h3>Пол</h3>
+					<span class="selected-gender" data-param="man">Мужской</span>
+					<span data-param="woman">Женский</span>
+				</div>
+				
+				<h3 class="weight-label">Вес <span></span></h3>
+				<div class="weight">
+					<div class="slider"></div>
+				</div>
+				
+				<h3 class="physical-label">Физическая активность <span></span></h3>
+				<div class="physical-activity">
+					<div class="slider"></div>
+				</div>
+			</div>
+
+			<div class="result">
+				<h2 class="total">Рекомендовано для потребления <br><span></span> в день</h2>
+				<div class="b-bottle-cals">
+					<i class="bottle-cals-patt"></i>
+					<i class="bottle-cals-bg"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
